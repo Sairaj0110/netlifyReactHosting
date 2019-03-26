@@ -125,3 +125,33 @@ padding: 20px;
     background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 25px;
   }
+
+  .schoolDetails
+{
+  color: black;
+}
+
+.angular-card{
+   
+    width: '310px'!important ;
+     min-height: '360px'!important;
+      margin: 'auto'!important;
+}
+
+.react-card{
+    
+    width: '310px'!important;
+     min-height: '360px'!important;
+     margin: 'auto'!important;
+}
+
+  @media (max-width: 839px) and (min-width: 320px)
+{
+    .schoolDetails
+    {
+      margin-top: -45px !important;
+    }
+    .project-grid{
+        display:list-item;
+    }
+}

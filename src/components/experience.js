@@ -10,9 +10,11 @@ class Experience extends Component {
                 <Cell col={4}>
                 <h4>{this.props.startYear}-{this.props.endYear}</h4>
                 </Cell>
-                    <Cell col={8}>
-                    <h4>{this.props.jobName}</h4>
-                    <h5 style={{marginTop:'-15px'}}>{this.props.jobDescription}</h5>
+                <Cell col={8} className='schoolDetails'>
+                    
+                    <h4>{this.props.post}</h4>
+                    <h5 style={{marginTop:'-15px'}}>{this.props.jobName}</h5>
+                    <h6 style={{marginTop:'-15px'}}>{this.props.jobDescription}</h6>
                     </Cell>
                 </Grid>
             </div>

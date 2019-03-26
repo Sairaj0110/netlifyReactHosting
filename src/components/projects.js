@@ -12,19 +12,17 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="project-grid">
-                    <Card shadow={0} style={{ width: '310px', height: '360px', margin: 'auto' }}>
+                    <Card shadow={0} style={{ width: '310px', height: '370px', margin: 'auto' }}>
                         <CardTitle expand style={{ background: 'url(https://www.hopetutors.com/wp-content/uploads/2018/01/angular-5-training-in-chennai.png) bottom right 15% no-repeat #fff' }}></CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenan convallis.
+                        The application uses Bootstrap in front-end with Angular 5, backend as Python and DB as MongoDB.
                     </CardText>
                     </Card>
-
-                    <Card shadow={0} style={{ width: '310px', height: '360px', margin: 'auto' }}>
+<br/>
+                    <Card shadow={0} style={{ width: '310px', height: '370px', margin: 'auto' }}>
                         <CardTitle expand style={{ background: 'url(https://www.hopetutors.com/wp-content/uploads/2018/01/angular-5-training-in-chennai.png) bottom right 15% no-repeat #fff' }}></CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenan convallis.
+                        The application used Material UI in front-end with Angular, backend as Node JS with Express JS and Mongo as DB.
                         </CardText>
                     </Card>
                 </div>
@@ -35,18 +33,10 @@ class Projects extends Component {
                     <Card shadow={0} style={{ width: '260px', height: '320px', margin: 'auto' }}>
                         <CardTitle expand style={{ background: 'url(https://cdn0.froala.com/assets/editor/pages/B/frameworks/react-6a9ca3fcd0c84c07c1d8bbbad0eb7dfe.svg) bottom right 15% no-repeat #fff' }}></CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenan convallis.
+The Project uses React MDL library. Components are reused. Worked with props. 
                 </CardText>
                     </Card>
 
-                    <Card shadow={0} style={{ width: '260px', height: '320px', margin: 'auto' }}>
-                        <CardTitle expand style={{ background: 'url(https://cdn0.froala.com/assets/editor/pages/B/frameworks/react-6a9ca3fcd0c84c07c1d8bbbad0eb7dfe.svg) bottom right 15% no-repeat #fff' }}></CardTitle>
-                        <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenan convallis.
-                        </CardText>
-                    </Card>
                 </div>
             )
         }

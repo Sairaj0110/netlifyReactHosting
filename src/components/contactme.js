@@ -9,7 +9,7 @@ class ContactMe extends Component {
                     <Cell col={6}>
                         <h2>Sairaj Patil</h2>
                         <img className="image" src='https://cdn.dribbble.com/users/199982/screenshots/4044699/furkan-avatar-dribbble.png' alt="avatar" />
-                        <p style={{ margin: 'auto', width: '65%' }}>zkgfhdgfh hjsdgfs  djhfg sdg f zfdhfshjdf j sdjfg sjydf jhs sdfjg sdjfsjf sjd fjsdfgjsd fjhsdfjsdhgfdk fsk gdfjsg fsg df gsdfjg sdj</p>
+                        <p style={{ margin: 'auto', width: '75%', textAlign:'left' }}>I want to always keep innovating, evolving and contribute to build smart environment.</p>
                     </Cell>
 
 
