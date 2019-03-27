@@ -23,6 +23,13 @@ margin-bottom: 20px;
     padding: 20px;
 }
 
+.image-aboutme{
+  height: 80px;
+  border-radius: 60px;
+  margin:auto;
+  justify-content: space-between;
+}
+
 .banner-text{
     height: auto;
     background: black;
