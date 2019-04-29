@@ -35,7 +35,7 @@ class Resume extends Component {
                         <div style={{display:'flex', marginTop:'-30px'}}>
                         <Cell col={4} ><h5>Web : </h5></Cell>
                         <Cell col={8} style={{fontSize:'14px', marginTop:'32px'}} >
-                        <a  href='http://www.thesairaj.in' target='_blank' rel="noopener noreferrer">www.thesairaj.in</a></Cell>
+                        <a  href='http://www.thesairaj.in' target='_blank' rel="noopener noreferrer">www.sairajpatil.in</a></Cell>
                         </div>
 
                     </Cell>
